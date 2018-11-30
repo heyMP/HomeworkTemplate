@@ -1,5 +1,5 @@
 # For finding and parsing responce files
 Glob
-# NBInclude
+# NBInclude # For some reason travis-ci.com can't install successfully
 # Packages suggested for this assignment
 # Additional packages added by student
