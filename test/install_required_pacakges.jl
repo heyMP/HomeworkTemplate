@@ -1,5 +1,5 @@
 if VERSION >= v"0.7-"
-   using Pkg
+   import Pkg
 end
 
 function install_required_packages()
