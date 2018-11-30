@@ -1,6 +1,16 @@
-include("common.jl")
-
 using Glob
+if split(pwd(),'/')[end]!="test"
+  try 
+     cd("test")
+  catch
+     @error("Could not find test directory from " * pwd() )
+  end 
+end
+
 test_files = glob("test*.jl")
-foreach(include,test_files)
+#foreach(include,test_files)
+for f in test_files
+    println("# Including ",f,"...")  
+    include(f)  
+end
 
