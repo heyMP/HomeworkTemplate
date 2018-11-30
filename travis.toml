@@ -1,8 +1,7 @@
-nguage: julia
+language: julia
 os:
   - linux
 julia:
-  - nightly
   - 1.0
 
 script:
