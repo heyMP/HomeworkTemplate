@@ -1,0 +1,9 @@
+# For performing tests
+Test
+# For finding and parsing responce files
+Glob # Blah
+NBInclude 1.0
+# Packages suggested for this assignment
+# Additional packages added by student
+Compat    0.7  # Blahh  
+
