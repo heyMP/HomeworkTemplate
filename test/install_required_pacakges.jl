@@ -17,7 +17,7 @@ function install_required_packages()
          Pkg.add(string(p))
          num_packaged_installed += 1
       catch
-         @warn ("# Failed to install package " * p)
+         #@warn ("# Failed to install package " * p)
       end
     end
   end
