@@ -1,8 +1,7 @@
 # For finding and parsing responce files
 Glob
-Compat
 JSON
-#NBInclude
+NBInclude
 # Packages suggested for this assignment
 # Additional packages added by student
 
