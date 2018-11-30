@@ -10,7 +10,7 @@ end
 test_files = glob("test*.jl")
 #foreach(include,test_files)
 for f in test_files
-    println("# Including ",f,"...")  
+    println("# Including test file ",f,"...")  
     include(f)  
 end
 
