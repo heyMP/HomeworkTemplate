@@ -4,6 +4,3 @@ services:
     image: jupyter/datascience-notebook
     ports:
       - 8888:8888
-  
-  helloworld:
-    build: https://github.com/PSUDevOps/helloworld.git
