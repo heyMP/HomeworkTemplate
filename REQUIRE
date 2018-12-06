@@ -1,5 +1,9 @@
 #For finding and parsing responce files
+IJulia
 NBInclude   # Use eford's version to work with Travis-CI
+Statistics
+Plots
+Random
 Glob
 # Packages suggested for this assignment
 # Additional packages added by student

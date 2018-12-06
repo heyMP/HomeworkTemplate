@@ -1,0 +1,21 @@
+
+# Exercise 2
+
+Set the value of z equal to the some of 1 and 2.
+
+```julia
+# FIX CODE BELOW
+z = 1+2
+```
+
+Now we make a plot
+
+```julia
+using Plots
+x = range(0, stop=2*pi, length=50)
+println(x)
+plot(x, sin.(x))
+```
+
+```julia
+```
