@@ -5,7 +5,9 @@ Set the value of z equal to the some of 1 and 2.
 
 ```julia
 # FIX CODE BELOW
-z = 1+2
+x = 1
+y = 2
+z = x+y
 ```
 
 Now we make a plot
