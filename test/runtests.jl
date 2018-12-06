@@ -8,7 +8,7 @@ if split(pwd(),'/')[end]!="test"
 end
 
 test_files = glob("test*.jl")
-#foreach(include,test_files)
+println("test_files=",test_files)
 for f in test_files
     println("# Including test file ",f,"...")  
     include(f)  
