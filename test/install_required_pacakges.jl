@@ -6,7 +6,7 @@ function install_required_packages()
   # Add my version of this first to prevent registered version from being installed
 
   if !haskey(Pkg.installed(),"NBInclude")
-     Pkg.add(PackageSpec(url="git@github.com:eford/NBInclude.jl.git", rev="testing-travis"))
+     Pkg.add(PackageSpec(url="https://github.com/eford/NBInclude.jl.git", rev="testing-travis"))
   end
 
   lines = readlines("REQUIRE")
