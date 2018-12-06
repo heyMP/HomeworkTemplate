@@ -1,6 +1,7 @@
 #For finding and parsing responce files
+NBInclude   # Use eford's version to work with Travis-CI
 Glob
-NBInclude
+Weave
 # Packages suggested for this assignment
 # Additional packages added by student
 

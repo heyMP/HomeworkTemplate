@@ -1,5 +1,4 @@
-include("common.jl")
-parse_responce_file(1)
+using Test
 
 @testset "Testing solution to Exercise 1" begin
 
